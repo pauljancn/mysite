@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% load staticfiles %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<LINK href="{% static 'css/main.css' %}" type=text/css rel=stylesheet>
+<LINK href="{% static 'css/othercss' %}" type=text/css rel=stylesheet>
+<meta name="author" content="<%=constCurrentCity%>便民社区网(www.010y.com)" />
+<title>蒜皮网--注册</title>
+</head>
+<body onload="javascript:regform.username.focus();">
+<div id="head_left"><a href="<%=constURL%>/"><img src="/images/suanpi.gif" alt="{{ constCurrentCity}}分类信息网" border=0 /></a></div>
+<div id="head_middle_city"><li><a href="/">北京</a></li><li id="cc"><a href="http://www.efwang.com/">[切换城市]</a></li></div>
+<form target=_blank action="/issue/search.asp">
+<input type="text" name="q" size="25" />
+<input type="submit" value="搜索" />
+</form></div>
+<div id="toplink"></div>
+<div id="path_box">当前位置：<a href="/">首页</a> > <a href="/member/">会员中心</a> </div>
+ <h1><center>注册</center></h1>  
+ {% block content %}  
+{% endblock %}  
+<div id="foot"><a href="/public/Map.asp" target=_blank>网站地图</a>  | <a href="/public/help.asp" target=_blank>帮助中心</a> | <a href="/public/mianze.asp" target=_blank>免责声明</a><br>&copy;2012 蒜皮网</div>
+<div  style="display:none"><script language="javascript" src="http://count2.51yes.com/click.aspx?id=25954314&logo=12" charset="gb2312"></script></div>
+
+</body>
+</html>

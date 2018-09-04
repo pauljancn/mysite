@@ -1,0 +1,507 @@
+/*reset all*****************************/
+
+*{margin:0;padding:0;list-style:none}
+body{text-align:center;background:#FFF;font:13px/1.8 arial, Verdana, Helvetica, sans-serif;}
+img{border:none;vertical-align:middle}
+html{overflow-x:hidden}
+
+table{border-collapse:collapse;border-spacing:0}
+a:link{color:#00e}
+a:visited{color:#800080;}
+.index_body{margin:0px;text-align:center;font-size:13px;}
+
+#bands{height:3px;font-size:0px;background-color:#99cd33;clear:both}
+
+#error404,#other,#register,#postad,#selector,#help,#thankyou,#myquikr,#index,#city,#viewad,#browse,#popularsearch{margin-left:auto;margin-right:auto;width:980px;text-align:left}
+
+
+h1{font-size:21px;font-weight:normal}
+h2{font-size:15px;font-weight:bold}
+h3{font-size:14px;font-weight:bold}
+#city h4{font-size:14px;font-weight:bold}
+.blank5{height:5px}
+.blank10{height:10px}
+.blank20{height:20px}
+.blank15{height:15px}
+.blank17{height:17px}
+.blank5,.blank10,.blank20,.blank50,.blank17,.blank15{clear:both;overflow:hidden}
+
+.clear{clear:both;height:0;overflow:hidden}
+.transverse li{display:inline;margin-right:5px}	
+.transverse li a{white-space:nowrap}
+
+li.yui-ac-highlight{background:#426FD9;color:#FFF;cursor:default;margin-left:-5px;padding-left:5px;overflow:hidden}
+li.yui-ac-prehighlight{background:#B3D4FF}
+
+#city #aa3 .blank10 {height:33px}
+
+#text{font-size:13px;font-weight:normal;float:left}
+#logo_quikr{float:left;width:192px;z-index:20;position:relative;border:0;margin-top:20px;}
+.signin{padding-right:10px;font-size:11px;vertical-align:top;text-align:right}
+.free_bubble{position:absolute;float:left;margin-top:-9px;margin-left:54px}
+.free_bubble_other{position:absolute;float:left;margin-top:-9px;margin-left:112px}
+.header_middle{height:61px;line-height:15px;background-image:url(http://www.cnlist.org/image/index_header_center.gif);text-align:left}
+.header_left{height:61px;width:22px;background-image:url(http://www.cnlist.org/image/index_header_left.gif)}
+.header_right{height:61px;width:22px;background-image:url(http://www.cnlist.org/image/index_header_right.gif)}
+.search_button{margin-top:3px;.margin-top:-3px;_margin-top:-3px}
+.search_help{color:#d4edb3;font-weight:bold}
+
+
+#nav_table{height:92px;float:left;width:788px;background-image:url(http://www.cnlist.org/image/hp_header.gif);
+text-align:-moz-center;*text-align:center}
+
+/*tab*/
+.tab li{display:inline}
+.tab a{background:url(http://www.cnlist.org/image/bg.gif) no-repeat}		
+.tab a:link,.tab a:visited{float:left;background-position:left -134px;text-decoration:none;margin-left:5px}	
+.tab a:link span,.tab a:visited span{display:block;background:url(http://www.cnlist.org/image/bg.gif) no-repeat right -134px;font-size:14px;padding:2px 8px;color:#000}		
+.tab a:hover,.tab a:active{background-position:left -210px}	
+.tab a:hover span,.tab a:active span{background-position:right -210px}	
+.tab .on a:link,.tab .on a:visited{background-position:left -309px}
+.tab .on a span,.tab .on a:link span,.tab .on a:visited span{background:url(http://www.cnlist.org/image/bg.gif) no-repeat right -309px;color:#FFF;font-weight:bold}
+
+#nav a:hover{text-decoration:none}
+
+#trans{position:absolute;top:3px;width:100%;height:1090px;.height:1090px;_height:1140px;
+background-color:white;z-index:3;filter:alpha(opacity=75);-moz-opacity:0.75;left:100;.left:0;_left:0;_padding-left:20%}
+#city_pop1{position:absolute;top:230px;width:100%;z-index:12;left:0;.left:0;_left:auto}
+
+#welcome{clear:both;padding-top:38px;.padding-top:38px;_padding-top:10px;padding-bottom:8px;float:left;padding-left:12px;color:#0094d4;}
+#welcome_text{padding-top:37px;.padding-top:37px;_padding-top:10px;padding-bottom:8px;float:left;line-height:44px}
+#city_pop{border:solid 2px #57bff3;padding:5px;padding-left:20px;background:url('http://www.cnlist.org/image/index_gradient.gif');width:700px;height:170px}
+
+
+
+.bullet{padding-left:17px;padding-right:10px;background:url('http://www.cnlist.org/image/bullet.gif') no-repeat 0em 0.6em}
+#bullet_c ul{margin:0px;padding:0px;line-height:24px;list-style:none}
+#bullet_c ul li{background:url('http://www.cnlist.org/image/bullet.gif') no-repeat 0em 0em;padding-left:20px;padding-right:4px}
+#main{float:left}
+#main_right{float:left;margin-left:12px;}
+#main_left{width:235px;float:left}
+.move12{padding-left:12px}
+.move5{padding-left:5px}
+.clear{clear:both;height:0;overflow:hidden}
+#block{border:2px solid #def1fb;float:left;padding:5px;padding-bottom:15px;}
+#block_right{border:2px solid #def1fb; float:left;padding:4px;}
+.block_index{width:145px;margin-left:10px;.margin-left:10px;_margin-left:5px}
+#block_empty{float:left;padding-left:12px}
+.blue{background-color:#e3f5ff}
+.blue_light{background-color:#f3fbfe}
+.blue_plus{background-color:#f3fbfe;verticle-align:top;padding-bottom:0px;.padding-bottom:19px;_padding-bottom:19px}
+.line2px{clear:both;border-top:#def1f8 2px solid}
+#cats{width:182px;padding-left:12px}
+#cats_city{width:182px;padding-left:12px}
+#header{height:32px;font-size:17px;margin-left:-12px;padding-left:12px}
+.sponsor{text-align:center;padding-bottom:10px}
+.bubble{position:relative;top:83px;left:300px;width:222px;height:109px;z-index:1;margin-left:-222px;margin-top:-109px;overflow:hidden;border:0;visibility:hidden}
+.height_test{font-size:11px;width:200px;font-family:trebuchet ms;height20px;}
+.block_right{margin-left:12px;.margin-left:12px;_margin-left:5px}
+.height_test option{height:18px;padding-left:2px;font-size:11px}
+.search_term{height:17px;.height:18px;_height:18px;padding-top:0px;padding-bottom:2px;*padding-top0px;*padding-bottom:0px}
+
+.search_drop{width:223px;font-size:11px}
+.quikr_info{clear:both;font-size:12px;line-height:17px;padding-top:13px;padding-bottom:5px}
+.image_view_ad{border:2px solid #def1fb;text-align:center}
+.report{font-size:13px;margin:0px;padding-top:3px;.padding-top:3px;_padding-top:5px;}
+
+.adv_header{padding-left:12px;background-color:#e8e8e8;font-weight:bold}
+.adv_footer{background-color:#e8e8e8;height:5px;line-height:0; clear:both}
+/*.breadcrumb{position:relative;margin-top:24px;.margin-top:30px;_margin-top:3px;margin-bottom:-32px;.margin-bottom:-32px;_margin-bottom:-4px;padding-left:5px;z-index:0}*/
+.breadcrumb{margin-top:24px;.margin-top:30px;_margin-top:3px;margin-bottom:-32px;.margin-bottom:-32px;_margin-bottom:-0px;padding-left:5px;z-index:0}
+#ndtv .breadcrumb{margin-top:3px;.margin-top:3px;_margin-top:3px;margin-bottom:0px;padding-left:5px;z-index:0}
+#nav_bar{padding-top:1px;border:3px solid #c5ebff;background-color:#e3f5ff;padding-left:8px;padding-right:3px;font-weight:bold}
+#nav_bar #buttons{float:left;width:inherit;padding-left:9px;padding-right:9px;border-right:1px solid #000;line-height:15px;margin-top:6px}
+#nav_bar #buttons .on{text-decoration:underline}
+#nav_bar #last_button{float:left;width:inherit;padding-left:9px;padding-right:9px;line-height:15px;margin-top:6px}
+.ad160x600{text-align:center;margin-left:-8px}
+.adnumber{float:left;margin-top:1px;width:540px}
+.sortby{float:left;margin-top:2px;width:170px;text-align:right}
+.merch160x600{width:160px;text-align:center;border:1px solid #000;margin-left:25px}
+.selected{font-weight:bold;padding-left:10px}
+
+#green_dhtml{border:1px solid #84c225;width:auto;height:auto;padding:7px;position:absolute;background-color:#fff;z-index:1;margin-top:-2px}
+#green_dhtml_content{overflow:scroll;width:auto;height:180px;overflow-x:hidden;float:left;padding-right:12px;margin-bottom:10px;.margin-bottom:10px;_margin-bottom:2px}
+#green_dhtml_content1{width:95px;.width:95px;_width:93px;height:auto;float:left;text-align:left;line-height:19px;padding-left:1px}
+#greentop{visibility:hidden;margin-left:20px;_margin-left:20px;.margin-left:-112px;margin-top:1px;_margin-top:2px;.margin-top:2px}
+.green_close{clear:both;margin-left:80px;margin-bottom:0px;.margin-top:0px;_margin-bottom:-2px}
+
+/* search*/
+
+#myContainer{position:absolute;text-align:left;border:1px solid #7f9db9;background-color:#e8f6d5;width:197px; line-height:18px; padding-left:5px;margin-top:-4px;.margin-top:22px;_margin-top:22px; margin-left:0px;.margin-left:-208px;_margin-left:-208px;}
+
+
+.popup_header{padding-top:5px;padding-bottom:5px;float:left;width:97%;.width:95%;_width:97%}
+.popup_close{margin-left:0px;.margin-left:0px;_margin-left:16px}
+.popup_city{float:left;padding:0px;width:20%;font-size:14px;font-weight:bold}
+
+#close_button{clear:both;text-align:right}
+
+#error404 #main{width:665px}
+#error404 #content{padding-top:40px;.padding-top:15px;_padding-top:15px}
+
+#thankyou #main{width:665px}
+#thankyou #block_empty{width:648px}
+#thankyou #block{width:648px}
+#thankyou #welcome{color:#000000}
+#thankyou #content{padding-top:40px;.padding-top:15px;_padding-top:15px}
+
+#other #main{width:665px}
+#other #block_empty{width:648px}
+#other #block{width:648px}
+#other #welcome{color:#000000}
+#other #content{padding-top:40px;.padding-top:15px;_padding-top:15px}
+
+#register #main{width:665px}
+#register #block_empty{width:648px}
+#register #block{width:648px}
+#register #welcome{color:#000000}
+#register #content{padding-top:40px;.padding-top:15px;_padding-top:15px}
+
+#myquikr .breadcrumb{margin-bottom:0px;.margin-bottom:-4px;_margin-bottom:-4px}
+
+#postad #main{width:980px;padding-top:25px;.padding-top:25px;_padding-top:0px}
+#postad #block{width:964px}
+
+#selector #main{width:980px;padding-top:25px;.padding-top:25px;_padding-top:0px}
+#selector #block{width:964px}
+
+#popularsearch #main{width:980px;padding-top:25px;.padding-top:25px;_padding-top:0px;}
+#popularsearch #block{width:964px}
+
+
+#viewad #main_old{width:100%}
+#viewad #main{width:710px;}
+#viewad #block_right{width:240px;float:left;}
+#viewad #block{width:648px}
+#viewad #welcome{color:#000000;width:96%}
+
+#city #main {width:735px}
+#city #main #block {width:720px}
+#city #main_right #block{width:215px}
+#city #block_right{padding:6px; width:215px;}
+#city #block_right #header{margin-left:-6px}
+#city #main #block a:visited {color:#00e}
+
+
+#browse #main_old{width:100%}
+#browse #welcome{padding-bottom:0px;margin-bottom:-3px;padding-left:5px}
+#browse .title{height:32px;vertical-align:top}
+#browse .price{width:120px;text-align:right;font-weight:bold}
+#browse .image{text-align:center;padding:2px;border:1px solid #e8e8e8;width:60px;height:60px}
+#browse .description{padding-left:12px;line-height:18px;vertical-align:top;text-align:justify}
+#browse .time{width:120px;vertical-align:bottom;text-align:right}
+#browse .ad{padding-bottom:10px;border-bottom:1px solid #e3e3e3}
+#browse #main{width:740px}
+#browse #block_empty{width:729px}
+#browse #block{width:210px}
+#browse #block_right{width:730px;}
+#browse .sponsors{padding-left:7px;padding-right:5px;padding-bottom:0px}
+#browse .sponsors1{margin-left:-8px}
+
+.col2_div{float:left;width:47%;margin-right:2%}
+.col3_div{width:30%;float:left;margin-right:2%}
+.col4_div{width:22%;float:left;margin-right:2%}
+
+
+#footer{line-height:22px;width:100%;background-image:url(http://www.cnlist.org/image/grey_footer.gif);height:75px;padding-top:10px;text-align:center}
+
+
+#wrapper .full{width:100%}
+#wrapper{margin:0 auto;text-align:left}
+#content{clear:both;text-align:left;width:950px;margin:0 auto;padding:0 8px}
+#content{padding-top:10px}
+#middle{font-size:13px;font-family:Arial, Verdana, Helvetica, sans-serif;margin:0;padding:0;line-height:1.2em;color:#000}
+#main_old{width:640px;float:left;overflow:hidden}
+#sidebar{width:280px;float:right;overflow:hidden}
+#postad #sidebar{width:280px;float:right;overflow:hidden;margin-top:25px;.margin-top:25px;_margin-top:0px}
+#postad .grayBorder{padding:5px;border:1px solid #EBEBEB;margin-top:10px;clear:both;height:1%}
+#postad .sidebarYellow h3{background:url(http://www.cnlist.org/image/bg.gif) no-repeat left -44px;line-height:21px;font-size:12px;padding-left:12px}
+#postad	.sidebarYellow h3 span{display:block;background:url(http://www.cnlist.org/image/bg.gif) no-repeat right -66px;line-height:21px;color:#FFf}
+#postad	#sidebar .sidebarYellow ul,.sidebarYellow ul{margin:5px 0}
+#postad	#sidebar .sidebarYellow li,.sidebarYellow li{background:url(http://www.cnlist.org/image/li_yellow.gif) no-repeat 5px 8px;padding-left:16px;overflow:hidden}
+
+form .button1,form .button2,form .button3,form .button4,form .button5,form .button6,form .button7,form .button8{background:url(http://www.cnlist.org/image/bg.gif) no-repeat;text-align:center;border:none;height:21px;color:#000;padding:0}
+	
+form .button1,form .button2{background-position:0 -286px;width:44px}
+form .button3{background-position:-52px -286px;width:51px}
+form .button4{background-position:-112px -286px;width:60px}
+form .button5{background-position:-180px -286px;width:70px}
+form .button6{background-position:-259px -286px;width:86px}
+form .button7{background-position:-354px -286px;width:95px}
+form .button8{background-position:-458px -286px;width:108px}	
+	
+.textButtonJifen{background:url(http://www.cnlist.org/image/jifen.gif) no-repeat left center;font-weight:bold;color:#000;padding:5px 50px 5px 30px}	
+.yellowButton{background:url(http://www.cnlist.org/image/input_8.gif) no-repeat center center;text-align:center;display:block}
+#main .yellowButton a{color:#000;text-decoration:none}
+
+.button_all{
+background:url(http://www.cnlist.org/image/button_backpic.gif) repeat-x top left;
+border-top:#d9a415 solid 1px;
+border-right:#aa8215 solid 1px;
+border-bottom:#aa8215 solid 1px;
+border-left:#d9a415 solid 1px;
+height:21px;
+font-size:12px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+padding-left:2px;
+padding-right:2px;
+}
+
+
+.error,.ok,.load{padding:2px 5px 2px 25px;color:#000}
+.error{border:1px solid #FF0000;background:#FEE9E1 url(http://www.cnlist.org/image/error.gif) no-repeat 5px 6px}
+.ok{border:1px solid #5EBF01;background:#E7FBC0 url(http://www.cnlist.org/image/ok.gif) no-repeat 5px 6px}
+.load{border:1px solid #FFBD33;background:#FFFFCC url(http://www.cnlist.org/image/ajax_loader.gif) no-repeat 5px 6px}
+label{font-weight:bold}
+.bulletlist{list-style:disc;margin:0 0 0 1.2em;padding:0.2em 0 0.2em 1.2em}
+.regError{font-size:13px;color:#FF0000}
+	
+.error_field{border:2px solid #B8230A;margin-bottom:2px}
+
+.pagetitle2{margin:0;padding:0 0 0.2em 0;font-size:medium;font-weight:bold;border-bottom:1px solid #BEC3C7}
+
+.closeBtn{float:right;display:inline;padding:0}
+.sidebarGreen h3,#myquikr h3,#postad h3{background:url(http://www.cnlist.org/image/bg.gif) no-repeat left top;line-height:21px;font-size:13px;padding-left:12px}
+.sidebarGreen h3 span,#myquikr h3 span,#postad h3 span{display:block;background:url(http://www.cnlist.org/image/bg.gif) no-repeat right -22px;line-height:21px;color:#FFf}
+.ads ul,#sidebar ul,.sidebarGreen ul{margin:5px 0}
+.ads li,#sidebar li,.sidebarGreen li{background:url(http://www.cnlist.org/image/li_green.gif) no-repeat 5px 8px;padding-left:16px;overflow:hidden}
+.sidebarBlue h3{background:url(http://www.cnlist.org/image/bg.gif) no-repeat left -88px;line-height:21px;font-size:13px;padding-left:12px}
+.sidebarBlue h3 span{display:block;background:url(http://www.cnlist.org/image/bg.gif) no-repeat right -110px;line-height:21px;color:#FFf}
+#sidebar .sidebarBlue ul,.sidebarBlue ul{margin:5px 0}
+#sidebar .sidebarBlue li,.sidebarBlue li{background:url(http://www.cnlist.org/image/li_blue.gif) no-repeat 5px 8px;padding-left:16px;overflow:hidden}
+
+form table{margin:10px}
+form table td{margin:10px;vertical-align:top;color:#000}
+
+
+table.table th{background:#E5FDCE;padding:2px;color:#448A01;white-space:nowrap}
+table.table td{padding:3px;color:#000}
+table.table .trBg{background:#F2F2F2}
+
+table{border-collapse:collapse;border-spacing:0}
+fieldset{border:1px}
+small{font-weight:normal;color:#666;font-size:12px}
+
+
+
+.toolBar{background:url(http://static.quikr.com/images/css/toolbar/toolbar3_bg.jpg) repeat-x left bottom;height:26px;padding:5px 5px 3px 5px;clear:both;border:0}	/*bug height 25px ie6*/
+.toolBar li{float:left;padding:0;margin-top:1px;margin-right:2px;height:25px}
+.toolBar li img{border:none;display:block;padding-bottom:3px;float:left}
+.toolBar .on a:link,.toolBar .on a:visited{border:1px solid #78C928;margin:0px;background:#fff;cursor:default}	
+.toolBar a:link, .toolBar a:visited, .toolBar a:active{font-size:12px;text-decoration:underline;border:0;	border-left:dotted 1px #f9f9f9;border-right:dotted 1px #f9f9f9;background:none}
+.toolBar a:hover{font-size:12px;text-decoration:none;background-color:#d2fda9;color:#4a4747;border:solid 1px #78c928}
+	
+#main_old .listInfo{border-bottom:1px dashed #999;margin:0px 0;width:98%;float:left;padding-left:12px}
+#main_old .listInfo p{width:480px;padding-bottom:5px;overflow:visible;float:left}
+#main_old .listInfo p img{float:left;margin-right:5px;display:block}
+#main_old .listInfo span{text-align:right;display:block;width:100px;overflow:visible;float:right}
+#main_old .listInfo span em{display:block}
+	
+#main .listInfo1{border-bottom:1px solid #e3e3e3;margin:5px 0;width:100%;float:left;line-height:17px}
+#main .listInfo1 p{width:480px;padding-bottom:5px;overflow:visible;float:left;font-size:13px;font-weight:normal}
+#main .listInfo1 p img{float:left;margin-right:5px;display:block}
+#main .listInfo1 span.s2{text-align:right;display:block;width:130px;overflow:visible;float:right}
+#main .listInfo1 span.s1, #main .listInfo1 span.s1 a{color: #555!important; font-size:12px!important;}
+#main .listInfo1 span em{display:block}	
+#main .listInfo1 a:link{font-size:14px;font-weight:normal}
+#main .listInfo1 a:visited{font-size:14px;font-weight:normal}
+#main .listInfo1 a:active{color:#000;text-decoration:none;font-size:14px;font-weight:normal}
+#main .listInfo1 a:hover{color:#000;text-decoration:none;font-size:14px;font-weight:normal}
+
+.blankColor2Px{clear:both;overflow:hidden;height:2px;background:#5DB30A}
+.grayColor1Px{clear:both;overflow:hidden;height:1px;background:#d9d9d9}	
+.gray1Color1Px{clear:both;overflow:hidden;height:1px;background:#e3e3e3}
+
+
+#daquan .seYellow{background:#FFEF63;border:1px solid #bfaf2f}
+.daquanInfo{background:#F6FFEA;float:left;margin:2px;height:80px;width:152px;border:1px solid #89AD67}
+.daquanInfo div{line-height:1.8;width:148px;height:20px;overflow:hidden;margin:0px 2px}
+.daquanInfo strong{color:#666}
+.daquanInfo div.desc{height:36px;line-height:1.6;padding:2px 0}
+.daquanInfo a{font-size:14px;font-weight:bolder}
+.dropblock{position:absolute;z-index:999;background:#fff}
+.dropblock .droplist{margin-top:5px;padding:5px 10px;background:#fff;border:1px solid #5DB30A}
+#filterHead{background:url('http://www.cnlist.org/image/listing_filter_head_bg.gif') repeat-x;font-weight:bold;color:black;padding:3px 10px}
+#exactSearch{background:url('http://www.cnlist.org/image/listing_filter_head_bg.gif') repeat-x;font-weight:bold;color:black;padding:3px 10px}
+#exactSearch select,#exactSearch input,#exactSearch button{margin-left:5px;vertical-align:middle}
+#exactSearch input{padding:2px 0px 1px 2px;font-weight:normal}
+
+	
+
+
+#help UL{LIST-STYLE-TYPE:none}
+#help LI{LIST-STYLE-TYPE:none}
+
+#denglu{PADDING-RIGHT:10px;PADDING-LEFT:0px;RIGHT:10px;FLOAT:right;PADDING-BOTTOM:0px;PADDING-TOP:4px;TOP:4px}
+
+#info{FLOAT:left;WIDTH:100%}
+#center{
+	BORDER-RIGHT:#cdcdcd 1px solid;PADDING-RIGHT:10px;PADDING-LEFT:10px;BACKGROUND:#fff;PADDING-BOTTOM:10px;MARGIN:0px 330px 0px 0px;PADDING-TOP:10px;min-width:400px
+}
+#right{FLOAT:left;MARGIN-LEFT:-331px;BORDER-LEFT:#cdcdcd 1px solid;WIDTH:330px}
+#rightbox{MARGIN:10px 0px 10px 10px}
+
+
+
+.c{CLEAR:both;OVERFLOW:hidden;HEIGHT:0px}
+.l{FLOAT:left}
+.r{FLOAT:right;font-size:11px}
+
+.red{FONT-WEIGHT:bold;COLOR:#ff3300}
+#menu{BACKGROUND:#fff;MARGIN:10px 10px 0px}
+
+#info_list{BACKGROUND:#fff;FLOAT:left}
+#center_list{BORDER-RIGHT:#fff 1px solid;PADDING-LEFT:5px;BACKGROUND:#fff;PADDING-BOTTOM:0px;PADDING-TOP:0;width:720px}
+#right_list{FLOAT:left;BORDER-LEFT:#fff 1px solid;WIDTH:250px}
+#rightbox_list{BACKGROUND:#fff;MARGIN:0px 10px 10px 0px}
+#rightbox_list li{BACKGROUND-POSITION:left 10px;PADDING-LEFT:10px;BACKGROUND-IMAGE:url(http://www.cnlist.org/image/hd.gif);COLOR:#000000;BACKGROUND-REPEAT:no-repeat}
+#rightbox_list UL{MARGIN:0px 0px 0px 5px}
+#main_list{MARGIN:0px auto;WIDTH:980px;TEXT-ALIGN:left;float:left;margin-top:25px;.margin-top:25px;_margin-top:0px}
+#menu_bottom LI{FLOAT:left;MARGIN-RIGHT:10px}
+#help_c H1{PADDING-RIGHT:0px;BORDER-TOP:#75d0ff 1px solid;PADDING-LEFT:5px;BACKGROUND:#fff;PADDING-BOTTOM:10px;COLOR:#0093dd;PADDING-TOP:10px;font-size:13px;font-weight:bold}
+#help_b H1{PADDING-RIGHT:0px;BORDER-TOP:#a8d444 1px solid;PADDING-LEFT:5px;BACKGROUND:#fff;PADDING-BOTTOM:10px;COLOR:#9ac736;PADDING-TOP:10px;font-size:13px;font-weight:bold}
+#help_a H1{PADDING-RIGHT:0px;BORDER-TOP:#fdbf20 1px solid;PADDING-LEFT:5px;BACKGROUND:#fff;PADDING-BOTTOM:10px;COLOR:#ffa800;PADDING-TOP:10px;font-size:13px;font-weight:bold}
+#help_c{MARGIN-TOP:10px}
+#help_b{MARGIN-TOP:10px}
+#help_a{MARGIN-TOP:0px}
+#help_c DIV{PADDING-RIGHT:20px;PADDING-LEFT:20px;PADDING-BOTTOM:5px;PADDING-TOP:10px}
+#help_b DIV{PADDING:5px}
+#help_a DIV{PADDING:5px}
+#help_c DIV{TEXT-ALIGN:center}
+#help_c DIV P{PADDING-LEFT:20px;TEXT-ALIGN:left}
+#help_a{BACKGROUND-COLOR:#fff6bd}
+#help_b{BACKGROUND-COLOR:#e1f8b3}
+#help_c{BACKGROUND-COLOR:#caecff}
+#help_ta H3{BACKGROUND-POSITION:5px center;PADDING-LEFT:15px;FONT-SIZE:14px;BACKGROUND-IMAGE:url(http://www.cnlist.org/image/city_icon.gif);COLOR:#000;BACKGROUND-REPEAT:no-repeat}
+#help_tb SPAN{PADDING-LEFT:15px;COLOR:#000}
+#help_ta SPAN{PADDING-LEFT:15px;COLOR:#000}
+#help_tb UL{PADDING-LEFT:18px}
+#help_ta UL{PADDING-LEFT:18px}
+#help_tb H3{BACKGROUND-POSITION:5px center;PADDING-LEFT:15px;FONT-SIZE:14px;BACKGROUND-IMAGE:url(http://www.cnlist.org/image/soil_icon.gif);COLOR:#000;BACKGROUND-REPEAT:no-repeat}
+#help_ta LI{BACKGROUND-POSITION:left 10px;PADDING-LEFT:10px;BACKGROUND-IMAGE:url(http://www.cnlist.org/image/hd.gif);COLOR:#000000;BACKGROUND-REPEAT:no-repeat}
+#help_tb LI{BACKGROUND-POSITION:left 10px;PADDING-LEFT:10px;BACKGROUND-IMAGE:url(http://www.cnlist.org/image/hd.gif);COLOR:#000000;BACKGROUND-REPEAT:no-repeat}
+#center_list H1{PADDING-RIGHT:0px;BACKGROUND-POSITION:left center;PADDING-LEFT:20px;FONT-SIZE:16px;BACKGROUND-IMAGE:url(http://www.cnlist.org/image/h1_icon1.gif);PADDING-BOTTOM:10px;COLOR:#000;PADDING-TOP:15px;BACKGROUND-REPEAT:no-repeat;font-size:18px}
+.lists H2{PADDING-RIGHT:0px;BACKGROUND-POSITION:10px center;PADDING-LEFT:20px;BACKGROUND-IMAGE:url(http://www.cnlist.org/image/hd.gif);PADDING-BOTTOM:5px;COLOR:#000;PADDING-TOP:5px;BACKGROUND-REPEAT:no-repeat}
+.list_text{MARGIN:0px 10px 0px 32px}
+.list_text1{MARGIN:0px 10px 0px 32px;line-height:27px}
+.lists{MARGIN-BOTTOM:5px;BORDER-BOTTOM:#b9e3f8 1px solid}
+#help_ta{FLOAT:left;WIDTH:48%}
+#help_tb{FLOAT:left;WIDTH:48%}
+.header_help{font-size:13px;font-weight:bold;padding-left:20px}
+.header-design{background-image:url(http://www.cnlist.org/image/quikrhomebg2.blue.gif);background-repeat:repeat-x}
+.background_new{background-color:#edf8ff;padding-top:10px}.header{font-size:13px;font-weight:bold;padding-left:20px}
+.header-design{background-image:url(http://www.cnlist.org/image/quikrhomebg2.blue.gif);background-repeat:repeat-x}
+.background_new{background-color:#edf8ff;padding-top:10px}
+
+
+#main .cols2{ padding-left:10px}
+#main .cols2 .list{width:280px; float:left; margin-left:10px}
+#main .cols2 .first{margin-left:0}
+.cols2{ clear:both}
+
+/*help HTML*/
+
+#main_mykijiji{color:#000; margin-bottom:10px; width:950px; margin:0 auto;padding-top:10px}
+#left_mykijiji{width:200px; float:left;background:#fff; margin-top:10px}
+#right_mykijiji{margin-top:10px; float:right; width:740px}
+
+#left_mykijiji  h1{color:#fff;line-height:21px;padding-left:5px;background: #7AC432 url(http://www.cnlist.org/image/list_l_bg.gif) no-repeat left}
+#left_mykijiji  h1 span{display:block; line-height:21px;	background: url(http://www.cnlist.org/image/list_l_bg2.gif) no-repeat right}
+.my_l_k{border:1px solid #EBEBEB;background: url(http://www.cnlist.org/image/my_l_bg.jpg) repeat-y right; margin-bottom:10px; padding:4px}
+.my_l_k h1 span{font-size:13px;font-weight: bold}
+
+#left_mykijiji  ul{ padding:5px 0;}
+#left_mykijiji  ul li{padding-left:10px;}
+
+.my_xz{background:#FFF url(http://www.cnlist.org/image/home_3d.gif) no-repeat 180px center; margin-right:-10px;font-weight: bold}
+
+#right_mykijiji h1{padding-left:10px;font-size:15px; border-bottom:3px solid #5CB209; font-weight:bold}
+#right_mykijiji h2{padding:10px} 
+#right_mykijiji p{padding:10px;color:#000000}
+
+/*Post ad*/
+#main form .box {border:1px solid #e1e1e1; width:160px; height:195px;overflow:auto;padding:5px}
+#main form .box a{display:block; padding:1px 6px;}
+#main form .box a:hover{background:#DDFE53}
+#main form .held,#main form .box a.held,#main form .box a.held:hover{background:#E2FFB0; margin:0; border:1px solid #9FE056; text-decoration:none;color:#000; padding:0 5px}
+#main form .hover{border:1px solid #ACDE4A;}
+#cate_f a,#area_f a{ background:url(http://www.cnlist.org/image/3d2.gif) no-repeat right center}
+.disabled{background:#f1f1f1}
+#main .postTable td{ padding:2px}
+
+
+#postTableok{ border:1px solid #D7B2D7; background:#FEF5FE; padding:10px;}
+#postTableok .khr{ height:1px; background:#E8D9E8; overflow:hidden; margin:10px 0}
+
+.yellowButton{ background:url(http://www.cnlist.org/image/input_8.gif) no-repeat center center; text-align:center; display:block}
+#main .yellowButton a{ color:#000; text-decoration:none}
+#postErrors{margin-bottom:4px;}
+
+/*login*/
+#content .logingtable{ background:#7CB81E; color:#FFF; margin:-40px 0 40px 0; *margin:0 0 0 0}
+#login_new_t,#post_login{width:300px; height:225px; position:absolute;}
+#login_new_t{ background:#000;-moz-opacity:0.2; filter:alpha(opacity=20); margin:-20px 0 0 0}
+#post_login{ background: #FFF;z-index:10;  border:1px solid #5AB508; margin:-26px 0 0 -6px}
+
+
+.field{font-size:13px; padding-top:0px}
+.wide {width:410px}
+.field1{font-size:13px; padding-top:15px}
+
+/*NDTV CSS*/
+a.globalnav_link{color:#003399;text-decoration: none;font-family: Arial, Helvetica, sans-serif;font-weight:bold;font-size:12px}
+a.globalnav_link:hover{color:#003399;text-decoration: underline;font-family: Arial, Helvetica, sans-serif;font-weight:bold;font-size:12px}
+a.bottom_link{color:#003399;text-decoration: none;font-family: Arial, Helvetica, sans-serif;font-weight:normal;font-size:12px}
+a.bottom_link:hover{color:#003399;text-decoration: underline;font-family: Arial, Helvetica, sans-serif;font-weight:normal;font-size:12px}
+.copywrite{color:#000000;font-family: Arial, Helvetica, sans-serif;font-weight:normal;font-size:11px}
+.bg_top{background-image: url(http://www.cnlist.org/image/bg_top.gif);background-repeat: repeat;height: 15px}
+#ndtv #welcome{padding-top:15px;padding-bottom:8px}
+#ndtv #welcome_text{padding-top:14px;padding-bottom:8px}
+.header_middle1{height:40px;line-height:15px;background-image:url(http://www.cnlist.org/image/index_header_center.gif);text-align:center}
+#ndtv #green_dhtml{margin-left:-20px;.margin-left:-20px;_margin-left:112px;margin-top:-3px;.margin-top:-3px;_margin-top:-2px}
+#ndtv #cats #green_dhtml{margin-left:0px;margin-top:-2px}
+#ndtv .free_bubble{position:absolute;float:left;margin-top:-9px;margin-left:84px}
+#ndtv .free_bubble_other{position:absolute;float:left;margin-top:-9px;margin-left:142px}
+#ndtv #myContainer{position:absolute;text-align:left;border:1px solid #7f9db9;background-color:#e8f6d5;width:197px; line-height:18px; padding-left:5px;margin-top:-4px;.margin-top:22px;_margin-top:22px; margin-left:228px;.margin-left:-208px;_margin-left:-208px;}
+#ndtv #trans{position:absolute;top:3px;width:100%;height:1400px;.height:1400px;_height:1430px;
+background-color:white;z-index:3;filter:alpha(opacity=75);-moz-opacity:0.75;left:100;.left:0;_left:0;_padding-left:20%}
+#ndtv #city_pop1{position:absolute;top:400px;width:100%;z-index:12;left:0;.left:0;_left:auto}
+
+.error{BORDER:#ff0000 1px solid;BACKGROUND:url(http://www.cnlist.org/image/error.gif) #fee9e1 no-repeat 5px 6px;line-height:16px}
+.error{padding-right:5px;padding-left:25px;padding-bottom:2px;COLOR:#000;padding-top:2px;text-align:left}
+#pagestatus_new{FONT-WEIGHT:bold;FONT-SIZE:13px;COLOR:#000000;BACKGROUND-COLOR:#ffffff}
+#pagestatus_new .pagestatus_sucess_display{BORDER:#386418 1px solid;padding-right:5px;padding-bottom:5px;padding-top:5px;margin-top:50px;BACKGROUND-COLOR:#cff28b;}
+#pagestatus_new .pagestatus_sucess{padding-left:45px;FONT-WEIGHT:normal;FONT-SIZE:13px;BACKGROUND:url(http://www.cnlist.org/image/success_icon.gif) no-repeat 0.5em 50%;HEIGHT:32px;word-wrap:break-word;text-align:left;line-height:16px;padding-top:12px}
+#pagestatus_new .pagestatus_error_display{padding:5px;BORDER:#d82d02 2px solid;BACKGROUND-COLOR:#fb8a6d}
+#pagestatus_new .pagestatus_error{padding-left:45px;FONT-WEIGHT:bold;BACKGROUND:url(http://www.cnlist.org/image/fail_icon.gif) no-repeat 0.5em 50%;COLOR:#ffffff;padding-top:2px;HEIGHT:32px;word-wrap:break-word;text-align:left;line-height:16px}
+#pagestatus_new #pagestatus_info_display{padding-right:5px;padding-left:5px;padding-bottom:5px;padding-top:5px;BACKGROUND-COLOR:#ffff66}
+#pagestatus_new .pagestatus_info{padding-left:45px;MIN-HEIGHT:32px;BACKGROUND:url(http://www.cnlist.org/image/alert_icon.gif) no-repeat 0.5em 50%;padding-top:5px;HEIGHT:32px}
+#pagestatus_new .message_seperator{margin:0px 10px;COLOR:#386418;HEIGHT:1px}
+#pagestatus_new A{FONT-WEIGHT:normal}
+
+#myquikr #content{clear:both;text-align:left;width:950px;.width:950px;_width:965px;margin:0 auto;padding:0 8px;padding-top:10px}
+
+
+#main h2 {font-size:13px;white-space:nowrap;}
+#main h2 span {font-size:12px; font-weight:normal;}
+#nav_table h2 {font-size:18px;white-space:nowrap;}
+
+ul.lbbox {margin: 0; padding: 0;}
+ul.lbbox li {float:left; margin:0 8px 0 0; white-space:nowrap;padding:0 2px;}
+li.opton {color:#fff!important;background: #4444FF!important; }
+li.opton a {color:#fff!important;}
+.searchtable td,.searchtable td * {font-size:12px; font-weight:normal;}
+.searchtable input{padding:1px;vertical-align:middle}
+.fblink {color:red!important; font-weight:bold; font-size: 15px;}
+#main .listInfo1 h2{font-size:14px;white-space:normal;}
+table.lb_pp td {font-size:13px; padding:2px; border-bottom: 1px dashed #999;vertical-align:top;line-height:20px;}
+table.lb_pp td.a {font-weight:bold; width:10%;white-space: nowrap;}
+.phone {font-size:17px;font-weight:bold;}
+ul.bqul li {float:left; font-size:12px;background:url(http://www.cnlist.org/image/li_yellow.gif) no-repeat 5px 8px;padding-left:16px;white-space: nowrap;margin-right:10px;}
+ul.bgul li {float:left; font-size:13px;white-space: nowrap;margin-right:10px; width:32%;}
+ul.ccul li {float:left; font-size:12px;white-space: nowrap;margin-right:10px; width:auto;}
+span.hicols {color:#999;font-size:12px;}
+span.hicols a {color:#444!important; font-size:12px;}
+.h {display:none;}
+ul.proul li {float:left;width: 32%;}

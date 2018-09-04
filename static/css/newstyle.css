@@ -1,0 +1,32 @@
+td,th,p,li,input,select {font-size:12px;}
+.L10 {line-height:10px;}
+.L15 {line-height:150%;}
+.L17 {line-height:170%;}
+.F14 {font-size:14px;}
+.fastchannelborder{border-top:1px solid #ffffff;border-left:1px solid #ffffff;border-right:1px solid #999999;border-bottom:1px solid #999999;}
+.box {padding:5px;line-height:150%;}
+.box1{border-top:3px solid #cccccc;border-right:1px solid #cccccc;border-left:1px solid #cccccc;border-bottom:1px solid #cccccc}
+.input1 {  font-size: 12px; background-color: #F5F5f5; height: 20px; line-height: 125%; border-style: solid; }
+.input2 {  font-size: 12px; background-color: #72CF14; height: 20px; line-height: 125%; border-style: solid; border-top:1px solid #E3FACD;border-left:1px solid #E3FACD;border-right:1px solid #46800D;border-bottom:1px solid #46800D}
+.s01 {BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #cecfce; BORDER-LEFT: #ffffff 1px solid; WIDTH: 43px; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 19px}
+A:link {color:#333399;}
+A:visited {color:#333399;}
+A:active {color:#ff0000;}
+A:hover {color:#ff0000;}
+A.a01:link {text-decoration:none;color:#000000;}
+A.a01:visited {text-decoration:none;color:#000000;}
+A.a01:active {text-decoration:none;color:#000000;}
+A.a01:hover {text-decoration:underline;color:#000000;}
+
+TABLE.TABLE_TITLE
+{
+    border-collapse: collapse;
+}
+TABLE.TABLE_TITLE TH
+{
+    BACKGROUND-COLOR: #B1EBC6;
+}
+TH.th_name
+{
+    BACKGROUND-COLOR: #B1EBC6;
+}

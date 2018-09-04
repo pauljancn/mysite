@@ -1,0 +1,56 @@
+/* site specific in loquo.css */
+body
+{
+	background-color: #ffffff;
+	font-family: "ËÎÌו",arial;
+    	font-size: 14px;
+	margin:0 0 10px 0;
+}
+
+strong {font-weight: bold;}
+
+h1 {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+a:hover,a:active { color:#FF5500; }
+a:visited  
+{ 
+	color: #1a34fb;
+}
+li{margin:0; padding:0; LIST-STYLE-TYPE: none}
+
+#head1{width:860px;text-align:left;border-bottom: 1px solid #555555;overflow: hidden;display: inline-block}
+#head1 LI{float:left;width:200px}
+#head1 LI#last{font-weight:bold;font-size:14px;PADDING-TOP:15px;text-align:left}
+
+#head2{clear:both;width:860px;text-align:left}
+#head2 UL{float:left;width:430px;font-size:14px;MARGIN-top:10px}
+#head2 UL LI#fir{font-weight:bold;PADDING-BOTTOM:10px}
+#head2 UL LI#gocty {font-size:16px; font-weight:bold; background:url('/images/ctybt.gif') no-repeat; width:276px; height:45px; display:block; line-height:38px; text-align:center; text-decoration:none; padding-left:8px;}
+#head2 UL LI#last{text-align:right}
+
+#main{width:860px}
+#main UL{
+clear:both;width:860px;font-size:12px; padding-right: 8px;border-bottom:1px dashed #ccc;white-space:nowrap
+}
+#main .cor{
+background: #eee;
+}
+#main UL SPAN{
+float:left;font-weight:bold; border-right:1px dashed #ccc; padding-right: 8px; text-align: right; line-height:1.8em;vertical-align:top; padding-top:3px; padding-bottom:3px
+}
+#main UL LI{float:left;white-space:nowrap}
+#main UL LI A{
+padding-left: 12px; text-align: left;line-height:1.8em;vertical-align:top; padding-top:3px
+}
+h1,h2,h3,h4,p,ul,ol,dl{ margin:0px; padding:0px; list-style:none;}
+
+.home_top{width:860px;position:relative;margin:0 auto;text-align:center;overflow: hidden;display: inline-block;}
+.bottom {font-size: 12px;margin-top:20px;line-height:1.5em; padding-top:5px;border-top: 1px solid #555555; text-align:center;}

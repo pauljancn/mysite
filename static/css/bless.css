@@ -1,0 +1,39 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px
+}
+INPUT {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; BORDER-LEFT: #333333 1px solid; BORDER-BOTTOM: #333333 1px solid
+}
+.table_m {
+	TABLE-LAYOUT: fixed
+}
+.border_bottom {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000000; PADDING-TOP: 5px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 30px
+}
+.border_list {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #000000; WORD-BREAK: break-all; LINE-HEIGHT: 15px; PADDING-TOP: 5px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: black; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: red; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: black; TEXT-DECORATION: none
+}
+A.white:link {
+	FONT-SIZE: 9pt; COLOR: white; TEXT-DECORATION: none
+}
+A.white:hover {
+	FONT-SIZE: 9pt; COLOR: red; TEXT-DECORATION: none
+}
+A.white:visited {
+	FONT-SIZE: 9pt; COLOR: white; TEXT-DECORATION: none
+}

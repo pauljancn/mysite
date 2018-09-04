@@ -1,0 +1,7 @@
+body{
+	background:#DFE8F6 url(../images/bg_top.jpg) repeat-x top left;
+	margin:10px;
+	font-size:14px;
+}
+td,th,p,input,select{font-size:14px}
+img{border:none}
