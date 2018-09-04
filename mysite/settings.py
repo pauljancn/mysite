@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '526x-xu)%=(o+fzqp0w5y@b#pl%99$3&f&zd75f=aove5h0ssl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = ['*']
@@ -78,13 +78,24 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
 DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'suanpi_db',
+#        'HOST': '118.190.24.42',
+#        'PORT': '3306',
+#        'USER': 'root',
+#        'PASSWORD': '771015',
+#    }
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'suanpi_db',
-        'HOST': '118.190.24.42',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '111111',
+        'ENGINE': 'sqlserver',
+        'NAME': 'peihuoold',
+        'HOST': 'db.test.com',
+        'PORT': '990',
+        'USER': '010yuser',
+        'PASSWORD': 'spuser!!01',
+        'OPTIONS': {
+            'DRIVER': 'SQL Server Native Client 10.0',
+        },
     }
 }
 

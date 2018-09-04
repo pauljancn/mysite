@@ -45,10 +45,10 @@
 
       <div class="starter-template">
 
-        {% for suanpi in suanpi_list %}
-            <h2>{{ suanpi.title }}</h2>
-            <p>{{ suanpi.timestamp }}</p>
-            <p>{{ suanpi.body }}</p>
+        {% for fee in fee_list %}
+            <h2>{{ fee.intuserid }}</h2>
+            <p>{{ fee.dtadd }}</p>
+            <p>{{ fee.id }}</p>
         {% endfor %}
 
       </div>

@@ -1,11 +1,10 @@
 from django.shortcuts import render
-from suanpi.models import BlogPost
+from suanpi.models import *
 from django.template.context_processors import request
-
 # Create your views here.
-def suanpi_index(request):
-    suanpi_list = BlogPost.objects.all()
-    return render(request,'index.html',{'suanpi_list':suanpi_list})
+def fee_index(request):
+    fee_list = Tblfee.objects.all()
+    return render(request,'index.html',{'fee_list':fee_list})
 
-def test(request):
-    return render(request,'test.html')
+#def test(request):
+#    return render(request,'test.html')

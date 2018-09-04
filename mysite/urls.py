@@ -17,7 +17,6 @@ from django.conf.urls import url
 from django.contrib import admin
 from suanpi import views
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^suanpi/',views.suanpi_index),
-    url(r'^test/',views.test,name='test'),
+#    url(r'^admin/', admin.site.urls),
+    url(r'^suanpi/',views.fee_index),
 ]
