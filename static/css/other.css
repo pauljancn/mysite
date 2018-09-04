@@ -105,7 +105,7 @@ font-size:16px;line-height:30px;color:#0066cc
 float:left;BORDER-COLLAPSE: collapse;WIDTH:980px
 }
 H1{
-MARGIN:5px 0 0 0;PADDING-RIGHT: 6Px; width:970px;PADDING-LEFT: 2px; BACKGROUND: url(../images/bg_tb.jpg) repeat-x; PADDING-BOTTOM: 4px; COLOR: #ff6600; PADDING-TOP: 6px; BORDER: #ffe3d2 1px solid;FONT-SIZE: 15px; COLOR: #000000; TEXT-ALIGN: left
+MARGIN:5px 0 0 0;PADDING-RIGHT: 6Px; width:970px;PADDING-LEFT: 2px; BACKGROUND: url(/static/images/bg_tb.jpg) repeat-x; PADDING-BOTTOM: 4px; COLOR: #ff6600; PADDING-TOP: 6px; BORDER: #ffe3d2 1px solid;FONT-SIZE: 15px; COLOR: #000000; TEXT-ALIGN: left
 }
 #info_list_left{
 FLOAT:left;BORDER: #ffe3d2 1px solid;width:710px;PADDING-RIGHT: 4px; PADDING-LEFT: 6px; FONT-SIZE: 13px; PADDING-BOTTOM: 4px; LINE-HEIGHT: 24px; PADDING-TOP: 4px;display:inline-block;
@@ -145,7 +145,7 @@ MARGIN:2px;width:240px;PADDING-LEFT: 5px; FONT-SIZE: 13px;FONT-WEIGHT: bold; BAC
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px; PADDING-TOP: 0px
 }
 #td_leibie DIV LI {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; BACKGROUND: url(../images/li_dot3.gif) no-repeat 0px 9px; PADDING-BOTTOM: 0px; MARGIN: 2px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; BACKGROUND: url(/static/images/li_dot3.gif) no-repeat 0px 9px; PADDING-BOTTOM: 0px; MARGIN: 2px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
 }
 #td_leibie2 {
 	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 13px; BORDER-BOTTOM-WIDTH: 1px; OVERFLOW: hidden; WIDTH: 980px; BORDER-RIGHT-WIDTH: 1px
@@ -163,7 +163,7 @@ MARGIN:2px;width:240px;PADDING-LEFT: 5px; FONT-SIZE: 13px;FONT-WEIGHT: bold; BAC
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px; PADDING-TOP: 0px
 }
 #td_leibie2 DIV LI {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; BACKGROUND: url(../images/li_dot3.gif) no-repeat 0px 9px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; BACKGROUND: url(/static/images/li_dot3.gif) no-repeat 0px 9px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
 }
 #td_leibie2 DIV LI SPAN {
 	COLOR: #999999
@@ -181,13 +181,13 @@ MARGIN:2px;width:240px;PADDING-LEFT: 5px; FONT-SIZE: 13px;FONT-WEIGHT: bold; BAC
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px; PADDING-TOP: 0px
 }
 #td_leibie3 DIV LI {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; BACKGROUND: url(../images/li_dot3.gif) no-repeat 0px 9px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; BACKGROUND: url(/static/images/li_dot3.gif) no-repeat 0px 9px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
 }
 #td_leibie3 DIV LI SPAN {
 	COLOR: #999999
 }
 #cities {
-	BACKGROUND: url(../images/bg_city.gif) no-repeat 0px 3px; HEIGHT: 36px; TEXT-ALIGN: left
+	BACKGROUND: url(/static/images/bg_city.gif) no-repeat 0px 3px; HEIGHT: 36px; TEXT-ALIGN: left
 }
 #cities UL {
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 6px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
@@ -205,10 +205,10 @@ MARGIN:2px;width:240px;PADDING-LEFT: 5px; FONT-SIZE: 13px;FONT-WEIGHT: bold; BAC
 	COLOR: #ff0000; TEXT-DECORATION: none
 }
 #cities LI#action {
-	BACKGROUND: url(../images/bg_city1.gif) no-repeat left top
+	BACKGROUND: url(/static/images/bg_city1.gif) no-repeat left top
 }
 #cities LI#action A {
-	PADDING-RIGHT: 5px; BACKGROUND: url(../images/bg_city2.gif) no-repeat right top
+	PADDING-RIGHT: 5px; BACKGROUND: url(/static/images/bg_city2.gif) no-repeat right top
 }
 #city_area {
 	TEXT-ALIGN: left
@@ -264,7 +264,7 @@ MARGIN:2px;width:240px;PADDING-LEFT: 5px; FONT-SIZE: 13px;FONT-WEIGHT: bold; BAC
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
 }
 #table_info_tools TD INPUT {
-	BORDER-RIGHT: #d8af92 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d8af92 1px solid; PADDING-LEFT: 2px; BACKGROUND: url(../images/bg_btn.jpg) #ffcc99 repeat-x; PADDING-BOTTOM: 4px; BORDER-LEFT: #d8af92 1px solid; COLOR: #333333; PADDING-TOP: 4px; BORDER-BOTTOM: #d8af92 1px solid
+	BORDER-RIGHT: #d8af92 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d8af92 1px solid; PADDING-LEFT: 2px; BACKGROUND: url(/static/images/bg_btn.jpg) #ffcc99 repeat-x; PADDING-BOTTOM: 4px; BORDER-LEFT: #d8af92 1px solid; COLOR: #333333; PADDING-TOP: 4px; BORDER-BOTTOM: #d8af92 1px solid
 }
 #table_login {
 	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 14px; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; BORDER-COLLAPSE: collapse
@@ -288,7 +288,7 @@ MARGIN:2px;width:240px;PADDING-LEFT: 5px; FONT-SIZE: 13px;FONT-WEIGHT: bold; BAC
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
 }
 #table_login_sm LI {
-	PADDING-LEFT: 10px; BACKGROUND: url(../images/li_dot.gif) no-repeat 0px 7px; MARGIN: 0px; COLOR: #666666; LIST-STYLE-TYPE: none
+	PADDING-LEFT: 10px; BACKGROUND: url(/static/images/li_dot.gif) no-repeat 0px 7px; MARGIN: 0px; COLOR: #666666; LIST-STYLE-TYPE: none
 }
 #table_reg {
 	
@@ -297,7 +297,7 @@ MARGIN:2px;width:240px;PADDING-LEFT: 5px; FONT-SIZE: 13px;FONT-WEIGHT: bold; BAC
 	font-size:12px; BORDER-RIGHT: #fff1e8 1px solid; PADDING-RIGHT: 60px; BORDER-TOP: #fff1e8 1px solid; PADDING-LEFT: 60px; PADDING-BOTTOM: 30px; BORDER-LEFT: #fff1e8 1px solid; COLOR: #333333; PADDING-TOP: 5px; BORDER-BOTTOM: #fff1e8 1px solid
 }
 #table_reg H2 {
-	PADDING-LEFT: 10px; FONT-SIZE: 14px; BACKGROUND: url(../images/bg_h2.gif) repeat-x; COLOR: #ff6600; LINE-HEIGHT: 28px
+	PADDING-LEFT: 10px; FONT-SIZE: 14px; BACKGROUND: url(/static/images/bg_h2.gif) repeat-x; COLOR: #ff6600; LINE-HEIGHT: 28px
 }
 #table_reg P {
 	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #333333; LINE-HEIGHT: 22px; PADDING-TOP: 10px
@@ -336,7 +336,7 @@ MARGIN:2px;width:240px;PADDING-LEFT: 5px; FONT-SIZE: 13px;FONT-WEIGHT: bold; BAC
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; PADDING-TOP: 0px
 }
 #center_menu LI {
-	PADDING-RIGHT: 0px; MARGIN-TOP: 5px; PADDING-LEFT: 0px; BACKGROUND: url(../images/bg_cmenu.gif) no-repeat; PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: center
+	PADDING-RIGHT: 0px; MARGIN-TOP: 5px; PADDING-LEFT: 0px; BACKGROUND: url(/static/images/bg_cmenu.gif) no-repeat; PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: center
 }
 #center_info_weihu {
 	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM-STYLE: none
