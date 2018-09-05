@@ -1,4 +1,13 @@
 {% extends "base.html" %} 
 {% block content %}  
-asdfasfd
+<ul>
+	<li>用 户 名：<input name="username" size=25 maxlength="20" dataType="Limit" min=4 max=20 msg="用户名应该由4~20位的字母及数字组成"><span id="chkusername"></span>[<a href="javascript:chkrep()">检查重名</a>] <br>
+	<span>4-20个字符(包括小写字母、数字)。</span></li>
+	<li>a登录密码：<input type="password" name="pwd" id="pwd" size=25 min="6" max="16" dataType="Limit" msg="密码应该为 6~16 位"/><span id="pwd_1"></span><br>
+	　　　　　　　 <span>密码长度为6～16位，由大小写字母、数字、特殊字符组成。</span></li>
+	<li>b再输一遍密码：<input type="password" name="pwd2" id="pwd2" size=25  maxlength="20"><span id="pwd_2"></span></li>
+	<li>v电子邮件：<input name="email" size=25 maxlength="50" dataType="Email" msg="信箱格式不正确" /></li>
+	<li>f验&nbsp;证&nbsp;码：<img id="checkcode" src="GetCode.asp" align="absmiddle" border="0" /><input name="checkimg" type="text" class="input" id="checkimg" style="width: 50px;" maxlength="6" dataType="Require" msg="请输入验证码" /></li>
+
+</ul>
 {% endblock %}
