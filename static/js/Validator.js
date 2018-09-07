@@ -8,6 +8,7 @@ Url : /^http:\/\/[A-Za-z0-9]+\.[A-Za-z0-9]+[\/=\?%\-&_~`@[\]\':+!]*([^<>\"\"])*$
 IdCard : "this.IsIdCard(value)",
 Currency : /^\d+(\.\d+)?$/,
 Number : /^\d+$/,
+VCodeNumber : /^[1-9]\d{3}$/,//验证码
 Zip : /^[1-9]\d{5}$/,
 QQ : /^[1-9]\d{4,8}$/,
 Integer : /^[-\+]?\d+$/,

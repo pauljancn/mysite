@@ -1,8 +1,8 @@
 eclipse.preferences.version=1
 encoding//suanpi/admin.py=utf-8
 encoding//suanpi/alisms/const.py=utf-8
-encoding//suanpi/alisms/demo_sms_send.py=utf-8
 encoding//suanpi/alisms/mns_python_sdk/mns/mns_client.py=utf-8
+encoding//suanpi/alisms/sms_send.py=utf-8
 encoding//suanpi/apps.py=utf-8
 encoding//suanpi/models.py=utf-8
 encoding//suanpi/templates/index.html=UTF-8
