@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+encoding//mysite/contexts.py=utf-8
+encoding//mysite/settings.py=utf-8
 encoding//suanpi/admin.py=utf-8
 encoding//suanpi/alisms/const.py=utf-8
 encoding//suanpi/alisms/mns_python_sdk/mns/mns_client.py=utf-8

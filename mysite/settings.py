@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for mysite project.
 
@@ -12,6 +13,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 
 import os
 from django.conf.global_settings import TEMPLATE_DEBUG
+from django.template.context_processors import request
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -66,6 +68,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'suanpi.views.global_setting',
             ],
         },
     },
@@ -140,3 +143,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'static'),
 )
+
+#全局变量
+SITE_URL = 'efwang.com'
+CUR_URL = ''

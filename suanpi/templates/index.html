@@ -1,6 +1,6 @@
 {% extends "base.html" %} 
 {% block content %}  
-<ul>
+<ul>{{ request.get_host }}
 	<form name="regform" id="regform" method="POST" onSubmit="reg_sub();return Validator.Validate(this,3);" class="pubform">
 	<p>
 	<li>　手机号：<input name="username" size=25 maxlength="11" dataType="Limit" min=11 max=11 msg="请输入正确的11位手机号" /><span id="chkusername"></span></li>
